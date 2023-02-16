@@ -299,7 +299,7 @@
                     /* Design for AboutUs content */
                     
                     .container {
-                        margin: 12em 0;
+                        margin: 45em 0;
                         width: 1200px;
                         border-radius: 5px;
                         height: 50vh;
@@ -333,12 +333,7 @@
                     
                     img {
                         padding-top: 15px;
-                        transition: transform 0.3s ease-in-out;
                         border-radius: 50%;
-                    }
-                    
-                    img:hover {
-                        transform: scale(1.1);
                     }
                     
                     .boxnames {
@@ -364,3 +359,180 @@
                         margin-top: 20px;
                     }
                     /* contact us design starts here */
+                    
+                    .aboutcontent {
+                        align-items: center;
+                        margin-top: 80px;
+                        margin-left: 75px;
+                    }
+                    /* image alignment */
+                    
+                    .aboutcontent img {
+                        border-radius: 0;
+                        width: 35em;
+                        height: 35em;
+                        margin-left: 43em;
+                    }
+                    /* h3 alignment of class aboutcontent */
+                    
+                    .aboutcontent h3 {
+                        text-align: left;
+                        margin-top: -350px;
+                        text-decoration: none;
+                        font-size: 32px;
+                        color: #162938;
+                        font-family: 'Jost', sans-serif;
+                    }
+                    /* lining design */
+                    
+                    .aboutcontent .line {
+                        width: 75em;
+                        margin-top: 15em;
+                        border-top: 10px solid whitesmoke;
+                    }
+                    /* our team font */
+                    
+                    .aboutcontent h2 {
+                        color: #162938;
+                        font-family: 'Jost', sans-serif;
+                        font-size: 40px;
+                        text-align: center;
+                        margin-top: 1.5em;
+                    }
+                    /* Contact us starts here */
+                    
+                    .contact-container {
+                        margin-top: 100em;
+                        width: 80%;
+                        background: #fff;
+                        border-radius: 6px;
+                        box-shadow: 0 5px 25px grey;
+                        margin-left: -74em;
+                        margin-bottom: 40px;
+                    }
+                    
+                    .contact-container .contact-content {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                    
+                    .contact-container .contact-content .left-side {
+                        width: 25%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        margin-top: 15px;
+                        position: relative;
+                    }
+                    
+                    .contact-content .left-side::before {
+                        content: '';
+                        position: absolute;
+                        height: 70%;
+                        width: 2px;
+                        right: -15px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background: #afafb6;
+                    }
+                    
+                    .contact-content .left-side .details {
+                        margin: 14px;
+                        text-align: center;
+                    }
+                    
+                    .contact-content .left-side .details i {
+                        font-size: 30px;
+                        color: blueviolet;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .contact-content .left-side .details .topic {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                    
+                    .contact-content .left-side .details .text-one,
+                    .contact-content .left-side .details .text-two {
+                        font-size: 12px;
+                        color: #162938;
+                        font-weight: bold;
+                    }
+                    
+                    .contact-container .contact-content .right-side {
+                        width: 75%;
+                        margin-left: 75px;
+                    }
+                    
+                    .contact-content .right-side .topic-text {
+                        font-size: 23px;
+                        font-weight: 600;
+                        color: blueviolet;
+                    }
+                    
+                    .right-side .input-box {
+                        height: 50px;
+                        width: 100%;
+                        margin: 12px 0;
+                    }
+                    
+                    .right-side .input-box input,
+                    .right-side .input-box textarea {
+                        height: 100%;
+                        width: 90%;
+                        border: none;
+                        outline: none;
+                        font-size: 16px;
+                        background: #F0F1F8;
+                        border-radius: 6px;
+                        padding: 0 15px;
+                        resize: none;
+                    }
+                    
+                    .right-side .message-box {
+                        min-height: 110px;
+                    }
+                    
+                    .right-side .input-box textarea {
+                        padding-top: 6px;
+                    }
+                    
+                    .right-side .button {
+                        display: inline-block;
+                        margin-top: 10px;
+                    }
+                    
+                    .right-side .button input[type="button"] {
+                        color: #fff;
+                        font-size: 18px;
+                        outline: none;
+                        border: 2px solid blueviolet;
+                        padding: 8px 16px;
+                        border-radius: 6px;
+                        background: blueviolet;
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+                    }
+                    
+                    .button input[type="button"]:hover {
+                        color: blueviolet;
+                        background: #fff;
+                    }
+                    
+                    .aboutcontent .contacttitle {
+                        color: #162938;
+                        font-family: 'Jost', sans-serif;
+                        font-size: 40px;
+                        text-align: left;
+                        margin-top: 2em;
+                        margin-left: 68px;
+                    }
+                    
+                    .aboutcontent .line2 {
+                        width: 75em;
+                        margin-top: 38em;
+                        border-top: 10px solid whitesmoke;
+                    }

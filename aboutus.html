@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us</title>
 
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
     <link rel="stylesheet" href="../AboutUs/aboutus.css">
 
 </head>
@@ -21,7 +24,7 @@
             <a href="../Services/services.html">Services</a>
             <button class="abtnLogin-popup">Login</button>
 
-            <button class="abtnSignup-popup">Sign Up</button>
+            <button class="abtnSignup-popup" onclick="window.location.href='../Register/register.html'">Sign Up</button>
         </nav>
 
     </header>
@@ -94,13 +97,67 @@
 
     <div class="aboutcontent">
 
+        <img clas="bgcontent" src="./aboutus.avif">
+
+        <h3 class="maincontent">Site that provides you a better <br /> voting environment and platform to elect <br /> your choosen candidate for better position</h3>
+        <div class="line"></div>
+        <h2>OUR TEAM</h2>
+
+        <div class="line2"></div>
 
 
+        <h2 class="contacttitle">CONTACT US</h2>
 
     </div>
 
 
+    <!-- Contact us starts here -->
 
+    <div class="contact-container">
+
+        <div class="contact-content">
+
+            <div class="left-side">
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">Divertole, Tilottama</div>
+                    <div class="text-two">Butwal</div>
+                </div>
+                <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+977-9812345678</div>
+                    <div class="text-two">+977-9827654321</div>
+                </div>
+                <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">votingcontact@gmail.com</div>
+                    <div class="text-two">onlinevotingsystem@gmail.com</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="topic-text">Send us a message</div>
+                <p>If you want to contact us, you can send us message from here.</p>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="input-box message-box">
+                        <input type="text" placeholder="Enter your message">
+
+                    </div>
+                    <div class="button">
+                        <input type="button" value="Send Now">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
 
